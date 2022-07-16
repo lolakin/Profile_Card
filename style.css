@@ -1,0 +1,112 @@
+body{
+    /* background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg"); */
+    background: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg"), hsl(185, 75%, 39%);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-repeat: no-repeat no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profile-Card{
+    position: relative;
+    background: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow:white;
+
+}
+
+.Profile-Image{
+    margin: 0 auto;
+    display: block;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: -3rem;
+    transform: translateY(-54%);
+}
+
+.details{
+    line-height: 0.8;
+
+}
+
+
+.name{
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(227, 23%, 10%);
+    font-size: 20px;
+}
+
+.age{
+    color: hsl(227, 10%, 31%);
+    margin-left: 0.3rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.london{
+    color: hsl(227, 10%, 31%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+hr{
+    opacity: 0.2;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+    padding: 0.8rem;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+li span:nth-of-type(1){
+    font-size: 1.125rem;
+    font-weight: 900;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 100%, 0.10%);
+    letter-spacing: 0.05rem;
+}
+
+li span:nth-of-type(2) {
+    font-size: 0.7rem;
+    color: hsl(227, 10%, 40%);
+    letter-spacing: 0.075rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.attribution {
+    color: hsl(0, 106%, 1%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(227, 100%, 10%);
+    text-decoration: none;
+    font-size: 20px;
+}
